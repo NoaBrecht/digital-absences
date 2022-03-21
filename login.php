@@ -14,7 +14,7 @@
     
       <div class="row">
           <div class="col-md-6">
-              <img src="images/digitalabsences-logo_color_white.png" alt="" class="img-fluid">
+              <img src="img/digitalabsences-logo_color_white.png" alt="" class="img-fluid">
           </div>
           <div class="col-md-6">
             <div class="card shadow-2-strong bg-light" style="border-radius: 1rem;">
