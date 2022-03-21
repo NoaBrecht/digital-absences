@@ -11,6 +11,7 @@
     </script>
 </head>
 <body onload="init()">
+test jiri
     <?php include 'components/header.php'; ?>
     <main>
         <div class="title">
