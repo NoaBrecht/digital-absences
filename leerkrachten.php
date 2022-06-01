@@ -6,54 +6,54 @@
     <script>
         function init(){
             // Zet in de sidebar de huidige pagina actief.
-            document.getElementById('leerkrachten').classList.add("active");
+            document.getElementById('roosters').classList.add("active");
         }
     </script>
 </head>
 <body onload="init()">
-test jiri
     <?php include 'components/header.php'; ?>
     <main>
         <div class="title">
             <h3>Leerkrachten</h3>
         </div>
-        <div class="table-responsive">
-        <table class="table table-striped">
-        <thead class="table-secondary">
-    <tr>
-      <th scope="col">Achternaam</th>
-      <th scope="col">Voornaam</th>
-      <th scope="col">Afkorting</th>
-      <th scope="col">Active</th>
-      <th scope="col">Aanpassen</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td >Willekens</td>
-      <td>Stijn</td>
-      <td>WIST</td>
-      <td>  <button type="button" class="btn btn-success">active</button></td>
-      <td><i class="bi bi-pencil-square"></i></td>
-    </tr>
-    <tr>
-      <td >Adinau</td>
-      <td>Tim</td>
-      <td>ADTI</td>
-      <td>  <button type="button" class="btn btn-success">active</button></td>
-      <td><i class="bi bi-pencil-square"></i></td>
-    </tr>
-    <tr>
-      <td >Vandepitte</td>
-      <td>Jan</td>
-      <td>VDPJ</td>
-      <td>  <button type="button" class="btn btn-danger">inactive</button></td>
-      <td><i class="bi bi-pencil-square"></i></td>
-    </tr>
-  </tbody>
-</table>
-        </div>
-    </div>
+        <div class="container">
+            <p>Hier moet de lijst met leerkrachten geupload worden als deze gewijzigd is. De leerkrachten die al bestonden worden geupdate, de leerkrachten die niet meer in de lijst zitten worden verwijderd en de nieuwe leerkrachten worden toegevoegd.</p>
+
+            <button type="button" class="btn btn-primary">Nieuw rooster uploaden</button>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Achternaam</th>
+                    <th scope="col">Voornaam</th>
+                    <th scope="col">Afkorting</th>
+                    <th scope="col">Active</th>
+                    <th scope="col">Aanpassen</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Willekens</th>
+                    <td>Stijn</td>
+                    <td>WIST</td>
+                    <td><button type="button" class="btn btn-success">Active</button></td>
+                </tr>   
+                <tr>
+                    <th scope="row">Adinau</th>
+                    <td>Tim</td>
+                    <td>ADTI</td>
+                    <td><button type="button" class="btn btn-success">Active</button></td>
+                </tr>
+                <tr>    
+                    <th scope="row">Vandepitte</th>
+                    <td>Jan</td>
+                    <td>VDPJ</td>
+                    <td><button type="button" class="btn btn-danger">Inactive</button></td>
+                </tr>
+            </tbody>
+            </table>
+                    </div>
+                    
     </main>
     <?php include 'components/end-tags.php'; ?>
 </body>
