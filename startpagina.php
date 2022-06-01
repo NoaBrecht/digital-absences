@@ -17,7 +17,17 @@
             <h3>Titel naam</h3>
         </div>
         <div class="container">
-            Content
+            <div class="grid-container">
+                <div class="card">
+1
+                </div>
+                <div class="card">
+                    2
+                </div>
+                <div class="card">
+                3
+                </div>
+            </div>
         </div>
     </main>
     <?php include 'components/end-tags.php'; ?>
