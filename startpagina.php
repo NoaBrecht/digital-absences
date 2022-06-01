@@ -19,7 +19,12 @@
         <div class="container">
             <div class="grid-container">
                 <div class="card">
-1
+                    <div class="body">
+                        <img src="img/circle-posters" alt="">
+                    </div>
+                    <div class="footer">
+
+                    </div>
                 </div>
                 <div class="card">
                     2
