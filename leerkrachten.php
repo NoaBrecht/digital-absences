@@ -21,7 +21,7 @@
 
             <button type="button" class="btn btn-primary">Nieuw rooster uploaden</button>
 
-        <table class="table">
+        <table>
             <thead>
                 <tr>
                     <th scope="col">Achternaam</th>
@@ -33,22 +33,25 @@
             </thead>
             <tbody>
                 <tr>
-                    <th scope="row">Willekens</th>
+                    <td>Willekens</td>
                     <td>Stijn</td>
                     <td>WIST</td>
                     <td><button type="button" class="btn btn-success">Active</button></td>
+                    <td><i class="bi bi-pencil-square"></i></td>
                 </tr>   
                 <tr>
-                    <th scope="row">Adinau</th>
+                    <td>Adinau</td>
                     <td>Tim</td>
                     <td>ADTI</td>
                     <td><button type="button" class="btn btn-success">Active</button></td>
+                    <td><i class="bi bi-pencil-square"></i></td>
                 </tr>
                 <tr>    
-                    <th scope="row">Vandepitte</th>
+                    <td>Vandepitte</td>
                     <td>Jan</td>
                     <td>VDPJ</td>
                     <td><button type="button" class="btn btn-danger">Inactive</button></td>
+                    <td><i class="bi bi-pencil-square"></i></td>
                 </tr>
             </tbody>
             </table>
