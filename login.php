@@ -11,7 +11,7 @@
   <div class="jumbotron vertical-center">
   <div class="container">
 
-    
+    d
       <div class="row">
           <div class="col-md-6">
               <img src="img/digitalabsences-logo_color_white.png" alt="" class="img-fluid">
