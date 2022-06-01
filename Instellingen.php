@@ -14,9 +14,9 @@
     <style>
         .container {
             padding-top: 0px !important;
-        }
-
-
+display: flex;
+                align-items: flex-start;
+            }
     </style>
 </head>
 
@@ -35,7 +35,8 @@
                 </div>
 
             </div>
-            <div class="right">2</div>
+            <div class="right">
+            </div>
 
         </div>
         <div class="col border-start">
