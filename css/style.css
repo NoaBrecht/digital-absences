@@ -66,4 +66,37 @@ body {
     border-collapse: collapse;
   }
 
- 
+  .grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+  }
+  .grid-container .card{
+    border: 1px solid #DEE2E6;
+    border-radius: 15px;
+    max-height: 400px;
+    justify-content: space-between;
+  } 
+  .grid-container .body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .grid-container .body{
+    margin: 20px 0;
+  }
+
+  .grid-container .body img{
+    width: 65%;
+  }
+
+  .grid-container .footer{
+    margin: 20px 0;
+  }
+
+  @media (max-width:768px){
+    .grid-container{
+      grid-template-columns: 1fr 1fr;
+    }
+  }
