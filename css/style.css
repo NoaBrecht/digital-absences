@@ -29,12 +29,8 @@ body {
   overflow-x: hidden;
   font-size: 16px;
   font-family: 'Inter', sans-serif;
-  color: var(--text-clr)!important;
+  color: var(--text-clr);
 
-}
-
-h1, h2, h3, h4, h5, h6, p{
-  color: #3B3B3F!important;
 }
 
 
@@ -78,37 +74,5 @@ h1, h2, h3, h4, h5, h6, p{
   .grid-container .card{
     border: 1px solid #DEE2E6;
     border-radius: 15px;
-    max-height: 400px;
-    justify-content: space-between;
-  }
-
-  .grid-container .card .footer{
-    margin: 0 0 30px 0 ;
-
-  }
-
-  .grid-container .card .body{
-    width: 100%;
-    max-height: 250px;
-    display: grid;
-    place-content: center;
-    justify-items: center;
-    margin: 30px 0;
-
-  }
-
-  .grid-container .card .footer p{
-    max-width: 80%;
-    margin: 0 auto;
-  }
-
-  .grid-container .card .body img{
-    width: 60%;
-  }
-
-
-  @media (max-width: 768px){
-    .grid-container{
-      grid-template-columns: 1fr 1fr;
-    }
-  }
+    height: 400px;
+  } 
