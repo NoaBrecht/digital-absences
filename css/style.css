@@ -99,7 +99,7 @@ table {
 }
 
 .left a:hover {
-  color: var(--primary-dark) !important;
+  color: var(--primary-blue) !important;
 }
 
 .right {
