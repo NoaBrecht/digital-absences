@@ -20,7 +20,7 @@
                         <img src="img/circle-posters.png" alt="">
                     </div>
                     <div class="footer text-center">    
-                        <h4>Posters</h4>
+                        <h4>Posterss</h4>
                         <p>Upload posters of afbeeldingen om weer te geven</p>
                     </div>
                 </div>
