@@ -13,24 +13,34 @@
 <body onload="init()">
     <?php include 'components/header.php'; ?>
     <main>
-        <div class="title">
-            <h3>Titel naam</h3>
-        </div>
         <div class="container">
             <div class="grid-container">
                 <div class="card">
                     <div class="body">
-                        <img src="img/circle-posters" alt="">
+                        <img src="img/circle-posters.png" alt="">
                     </div>
-                    <div class="footer">
-
+                    <div class="footer text-center">    
+                        <h4>Posters</h4>
+                        <p>Upload posters of afbeeldingen om weer te geven</p>
                     </div>
                 </div>
                 <div class="card">
-                    2
+                    <div class="body">
+                        <img src="img/circle-bestanden.png" alt="">
+                    </div>
+                    <div class="footer text-center">    
+                        <h4>Leerkrachten</h4>
+                        <p>Pas de leerkrachten aan</p>
+                    </div>
                 </div>
                 <div class="card">
-                3
+                    <div class="body">
+                        <img src="img/circle-vervangingen.png" alt="">
+                    </div>
+                    <div class="footer text-center">    
+                        <h4>Vervangingen</h4>
+                        <p>Stel de vervangingen met afwezige leerkrachten op</p>
+                    </div>
                 </div>
             </div>
         </div>
