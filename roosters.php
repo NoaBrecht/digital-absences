@@ -22,7 +22,7 @@
 
             <button type="button" class="btn btn-primary">Nieuw rooster uploaden</button>
 
-        <table class="table">
+        <table>
             <thead>
                 <tr>
                     <th scope="col">Bestandsnaam</th>
@@ -32,17 +32,17 @@
             </thead>
             <tbody>
                 <tr>
-                    <th scope="row">GPU003</th>
+                    <td>GPU003</th>
                     <td>1/12/2021 18:39</td>
                     <td><i class="bi bi-trash"></i></td>
                 </tr>   
                 <tr>
-                    <th scope="row">GPU002</th>
+                    <td>GPU002</th>
                     <td>1/12/2021 18:39</td>
                     <td><i class="bi bi-trash"></i></td>
                 </tr>
                 <tr>    
-                    <th scope="row">GPU001</th>
+                    <td>GPU001</th>
                     <td>1/12/2021 18:39</td>
                     <td><i class="bi bi-trash"></i></td>
                 </tr>
