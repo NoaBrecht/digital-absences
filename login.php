@@ -10,7 +10,6 @@
 <body class="bg-primary">
   <div class="jumbotron vertical-center">
   <div class="container">
-    
       <div class="row">
           <div class="col-md-6">
               <img src="img/digitalabsences-logo_color_white.png" alt="" class="img-fluid">
@@ -26,7 +25,6 @@
                 <div class="form-outline mb-4 form-floating mb-3">
                   <input type="password" class="form-control form-control-lg" id="password" placeholder="name@example.com" value="">
                   <label for="password">wachtwoord</label>
-                  
                 </div>
     
                 <!-- Checkbox -->

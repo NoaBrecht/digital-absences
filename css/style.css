@@ -65,3 +65,14 @@ body {
     caption-side: bottom;
     border-collapse: collapse;
   }
+
+  .grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+  }
+  .grid-container .card{
+    border: 1px solid #DEE2E6;
+    border-radius: 15px;
+    height: 400px;
+  }
